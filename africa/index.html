@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>BISTRO ONYXE</title>
+</head>
+
+<body>
+    <!-- navbar of the website -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark burlywood">
+        <!-- contact page embed in navbar -->
+        <div id="contact-page" class="cornsilk">
+            <svg id="cancel" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                viewBox="0 0 50 50" style=" fill:#000000;">
+                <path
+                    d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z">
+                </path>
+            </svg>
+            <img class="up" src="imgs/up.png" alt="">
+            <!-- hotel info, address and map -->
+            <div class="card2 " style="width: 45%;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Bistro Onyxe</h4>
+                            <p class="fs-5 col-md-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                est reprehenderit sed tenetur, porro dignissimos maxime eum obcaecati ullam, tempora
+                                nostrum deleniti architecto.</p>
+                            <p class="fs-5 col-md-auto">Phone: 123456789</p>
+                            <p class="fs-5 col-md-auto">Email: <a href="">hotel@hotel.com</a></p>
+                        </main>
+                    </li>
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Address:</h4>
+                            <p class="fs-5 col-md-auto">53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+                        </main>
+                    </li>
+                    <li class="list-group-item"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+                            width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+                </ul>
+            </div>
+            <!-- contact form -->
+            <form class=" row row2">
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Name...</label>
+                    <input type="name" class="form-control" id="inputName4" required>
+                </div>
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Phone...</label>
+                    <input type="number" class="form-control" id="inputPhone4" required>
+                </div>
+                <div class="spacing col-md-12">
+                    <label for="inputEmail4" class="form-label">Email...</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="spacing mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+                <div class="spacing col-auto">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <!-- navbar -->
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-btn" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <img class="down" src="imgs/down.png" alt="">
+                <a href="rooms.html" class="custom-btn btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+    <!-- photo carousel being home page -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="overlay"></div>
+            <div class="carousel-caption text-start">
+                <h3>welcome to...<br>
+                    <h1 style="font-family: 'Righteous', cursive; margin-top: -3vh">Bistro Onyxe</h1>
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate libero eum exercitationem sint
+                    veritatis molestiae officiis dolore ipsa! Veritatis, nesciunt?</p>
+            </div>
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x900/?hotel,kitchen" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,dinner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,rooms" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <!-- about the hotel -->
+    <div class="container my-5 position-relative">
+        <div class="row featurette">
+            <div class="col-md-7 center">
+                <h1 class="featurette-heading">About Us</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo fugiat voluptatibus quam
+                    modi facere veniam sint nesciunt unde praesentium pariatur sapiente rem minima eum ad at, laboriosam
+                    excepturi esse nam culpa ipsam, dolorum adipisci.</p>
+                <a href="about.html" class="custom-btn btn btn-primary">Know More</a>
+            </div>
+            <div class="col-md-5 ">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image  mx-auto" width="300" height="500"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </svg>
+            </div>
+            <div class="col-md-5">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image  mx-auto about-pic" width="300"
+                    height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- book a room -->
+    <div class="container room-book">
+        <h1>Book A Room</h1>
+        <div class="row g-0 book">
+            <div class="col-6">
+                <input type="date" class="form-control" placeholder="chehcin" aria-label="First name">
+            </div>
+            <div class="col-6">
+                <input type="date" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-6">
+                <select id="inputState" class="form-select">
+                    <option selected>Adults</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <select id="inputState" class="form-select">
+                    <option selected>Kids</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="form-control" placeholder="" aria-label="">
+            </div>
+        </div>
+    </div>
+    <!-- photo seperator -->
+    <div class="seperator">
+        <div class="overlay"></div>
+        <img src="https://source.unsplash.com/1600x900/?hotel,lobby" alt="">
+    </div>
+    <!-- recommended rooms -->
+    <div class="container recommend-rooms">
+        <h1>Our Recommended Rooms</h1>
+        <div class="card-group">
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel,lobby" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <p><strong>Capacity: </strong>1 adult</p>
+                    <p><strong>Services: </strong>Wifi, breakfast, spa</p>
+                    <a href="rooms.html" class="right btn btn-primary">99/per night</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Family Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <p><strong>Capacity: </strong>2 adults 1 child</p>
+                    <p><strong>Services: </strong>Wifi, breakfast, spa</p>
+                    <a href="rooms.html" class="right btn btn-primary">199/per night</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel,reception" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deluxe Room</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <p><strong>Capacity: </strong>4 adults</p>
+                    <p><strong>Services: </strong>Wifi, breakfast, spa</p>
+                    <a href="rooms.html" class="right btn btn-primary">299/per night</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- various activities -->
+    <div class="activities">
+        <div class="activity large top">
+            <div class="overlay2">Swimming</div>
+            <h2 style="position: absolute; opacity: 0;">An Epic Size Swimming Pool</h2>
+            <p style="position: absolute; opacity: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita labore magni enim quidem, magnam praesentium numquam repellat facere, maxime mollitia, sapiente quam sit vero iure quia sed quaerat aliquam reiciendis error quibusdam consequatur saepe corrupti. Magnam nisi dolorum autem.</p>
+            <img src="https://source.unsplash.com/1366x720/?pool" alt="">
+        </div>
+        <div class="activity small right2">
+            <div class="overlay2">Conference</div>
+            <h2 style="position: absolute; opacity: 0;">An Epic Size Conference Room</h2>
+            <p style="position: absolute; opacity: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita labore magni enim quidem, magnam praesentium numquam repellat facere, maxime mollitia, sapiente quam sit vero iure quia sed quaerat aliquam reiciendis error quibusdam consequatur saepe corrupti. Magnam nisi dolorum autem.</p>
+            <img src="https://source.unsplash.com/1366x720/?meeting" alt="">
+        </div>
+        <div class="activity small left">
+            <div class="overlay2">Party</div>
+            <h2 style="position: absolute; opacity: 0;">An Epic Size Party Lounge</h2>
+            <p style="position: absolute; opacity: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita labore magni enim quidem, magnam praesentium numquam repellat facere, maxime mollitia, sapiente quam sit vero iure quia sed quaerat aliquam reiciendis error quibusdam consequatur saepe corrupti. Magnam nisi dolorum autem.</p>
+            <img src="https://source.unsplash.com/1366x720/?party" alt="">
+        </div>
+        <div class="activity large bottom">
+            <div class="overlay2">Bar</div>
+            <h2 style="position: absolute; opacity: 0;">An Epic Size Bar</h2>
+            <p style="position: absolute; opacity: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat expedita labore magni enim quidem, magnam praesentium numquam repellat facere, maxime mollitia, sapiente quam sit vero iure quia sed quaerat aliquam reiciendis error quibusdam consequatur saepe corrupti. Magnam nisi dolorum autem.</p>
+            <img src="https://source.unsplash.com/1366x720/?bar" alt="">
+        </div>
+        <div class="keep">
+            <!-- all full size activities with be displayed here -->
+            <img class="cancel" style="position: absolute; right: 3vh; top: 3vh; z-index: 3;" src="https://img.icons8.com/ios/50/000000/cancel.png"/>
+        </div>
+    </div>
+    <!-- reviews -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner reviews">
+            <div class="carousel-item active">
+                <div class="contain">
+                    <div class="review">
+                        <div class="image">
+                            <img class="bd-placeholder-img rounded-circle" width="100" height="100"
+                                src="https://source.unsplash.com/1366x720/?person" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>person name</h2>
+                            <h4>position</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam fuga officiis neque
+                                pariatur dolor distinctio vero suscipit eveniet repellat?</p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="image">
+                            <img class="bd-placeholder-img rounded-circle" width="100" height="100"
+                                src="https://source.unsplash.com/1366x720/?person" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>person name</h2>
+                            <h4>position</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam fuga officiis neque
+                                pariatur dolor distinctio vero suscipit eveniet repellat?</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <div class="contain">
+                    <div class="review">
+                        <div class="image">
+                            <img class="bd-placeholder-img rounded-circle" width="100" height="100"
+                                src="https://source.unsplash.com/1366x720/?person" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>person name</h2>
+                            <h4>position</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam fuga officiis neque
+                                pariatur dolor distinctio vero suscipit eveniet repellat?</p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="image">
+                            <img class="bd-placeholder-img rounded-circle" width="100" height="100"
+                                src="https://source.unsplash.com/1366x720/?person" alt="">
+                        </div>
+                        <div class="content">
+                            <h2>person name</h2>
+                            <h4>position</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est totam fuga officiis neque
+                                pariatur dolor distinctio vero suscipit eveniet repellat?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blogs -->
+    <div class="container recommend-rooms">
+        <h1>Our Blog Posts</h1>
+        <div class="card-group">
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel,lobby" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">10 Jobs that allow you to earn while travelling</h5>
+                    <p>AUGUST/26, 2021</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <a href="blog.html" class="right btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel,lobby" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Travel hacks to make your flight comfortable</h5>
+                    <p>AUGUST/26, 2021</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <a href="blog.html" class="right btn btn-primary">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?hotel,lobby" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">30 Geat gifts for travel lovers</h5>
+                    <p>AUGUST/26, 2021</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione atque, porro
+                        culpa harum delectus aspernatur cupiditate! Doloribus sed officia totam sequi officiis
+                        exercitationem sapiente.</p>
+                    <a href="blog.html" class="right btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photo seperator -->
+    <div class="seperator">
+        <div class="overlay"></div>
+        <img src="https://source.unsplash.com/1600x900/?hotel,lobby" alt="">
+    </div>
+    <!-- footer -->
+    <div class="container footer">
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col-6">
+                <a href="index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="imgs/down.png" width="300" alt="">
+                </a>
+                <p class="text-muted" style="margin-left: 6vh; width: 50%;">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Accusamus, eos sunt, dolorem officia alias illo obcaecati delectus ex reiciendis
+                    qui rerum natus. Id optio mollitia quidem blanditiis aperiam odio amet esse, ratione quam eum.</p>
+                <p class="text-muted" style="margin-left: 6vh; width: 50%;">copyright &copy 2021</p>
+            </div>
+
+            <div class="col">
+                <h5>Navigation</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link custom-hover p-0 text-muted">Home</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="about.html" class="nav-link custom-hover p-0 text-muted">About
+                            Us</a></li>
+                    <li class="nav-item mb-2"><a href="rooms.html"
+                            class="nav-link custom-hover p-0 text-muted">Rooms</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link custom-hover p-0 text-muted">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Address</h5>
+                <p class="text-muted">53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+                <p class="text-muted">Phone: 123456789</p>
+                <p class="text-muted">Email: <a href="">hotel@hotel.com</a></p>
+            </div>
+
+            <div class="map">
+                <iframe style="position: absolute; right: 20vh; bottom: -1vh;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+                    width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Rooms-Bistro Onyxe</title>
+</head>
+
+<body>
+    <!-- navbar of the website -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark burlywood ">
+        <!-- contact page embed in navbar -->
+        <div id="contact-page" class="cornsilk">
+            <svg id="cancel" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                viewBox="0 0 50 50" style=" fill:#000000;">
+                <path
+                    d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z">
+                </path>
+            </svg>
+            <img class="up" src="imgs/up.png" alt="">
+            <!-- hotel info, address and map -->
+            <div class="card2 " style="width: 45%;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Bistro Onyxe</h4>
+                            <p class="fs-5 col-md-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                est reprehenderit sed tenetur, porro dignissimos maxime eum obcaecati ullam, tempora
+                                nostrum deleniti architecto.</p>
+                            <p class="fs-5 col-md-auto">Phone: 123456789</p>
+                            <p class="fs-5 col-md-auto">Email: <a href="">hotel@hotel.com</a></p>
+                        </main>
+                    </li>
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Address:</h4>
+                            <p class="fs-5 col-md-auto">53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+                        </main>
+                    </li>
+                    <li class="list-group-item"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+                            width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+                </ul>
+            </div>
+            <!-- contact form -->
+            <form class=" row row2">
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Name...</label>
+                    <input type="name" class="form-control" id="inputName4" required>
+                </div>
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Phone...</label>
+                    <input type="number" class="form-control" id="inputPhone4" required>
+                </div>
+                <div class="spacing col-md-12">
+                    <label for="inputEmail4" class="form-label">Email...</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="spacing mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+                <div class="spacing col-auto">
+                    <a href="rooms.html" class="custom-btn btn btn-primary">Send Message</a>
+                </div>
+            </form>
+        </div>
+        <!-- navbar -->
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-btn" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <img class="down" src="imgs/down.png" alt="">
+                <a href="rooms.html" class="custom-btn btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+    <!-- photo carousel being rooms page -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide rooms-slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 70vh;">
+            <div class="overlay"></div>
+            <div class="carousel-caption rooms-intro text-start">
+                <h3>Bistro Onyxe...<br>
+                    <h1 style="font-family: 'Righteous', cursive; margin-top: -3vh">Our Rooms</h1>
+                </h3>
+            </div>
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x900/?hotel,kitchen" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,dinner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,rooms" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <!-- room -->
+    <div class="container" style=" width: 70%; margin: -12rem auto 8rem auto; border: 2px solid #7b5c34;">
+        <div class="card2">
+            <h1 class="card-header">Family Room<p style="font-size: 1rem; margin: 3.5vh 0 0 2vh; color: grey;">/$199 per night</p></h1>
+            <div class="card-body indi-room-body">
+                <p class="card-text" style="justify-self: flex-start;">Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Quae aut ea eos explicabo harum magni labore commodi consequuntur totam? Tempora!
+                </p>
+                <div class="essentials">
+                    <div class="service-wrapper room"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ac97b7d9af7564d238138_icon-room-service-01-hotel-template.svg"
+                            alt="" class="service-icon">
+                        <div class="service-text">2</div>
+                        <div class="service-text">Persons</div>
+                    </div>
+                    <div class="service-wrapper room"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ac97d964e1a7c485129ab_icon-room-service-02-hotel-template.svg"
+                            alt="" class="service-icon">
+                        <div class="service-text">1</div>
+                        <div class="service-text">King Bed</div>
+                    </div>
+                    <div class="service-wrapper room"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ac97d964e1a7c485129ab_icon-room-service-02-hotel-template.svg"
+                            alt="" class="service-icon">
+                        <div class="service-text">2</div>
+                        <div class="service-text">King Beds</div>
+                    </div>
+                    <div class="service-wrapper room"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ac97d964e1a7c485129ab_icon-room-service-02-hotel-template.svg"
+                            alt="" class="service-icon">
+                        <div class="service-text">2</div>
+                        <div class="service-text">King Beds</div>
+                    </div>
+                </div>
+                <hr style="width: 70%;">
+                <h1>Amenities</h1>
+                <div data-w-id="ebeec582-3ad9-db20-46c6-cfa6f297d083"
+                    style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
+                    class="amenities">
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8be67cda452a81d150f_icon-amenities-01-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Wifi</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8bfda70f19518e7509f_icon-amenities-04-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Heathen</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8c03741f5c4f8c36915_icon-amenities-07-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Coffe</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8bf1987560aeb6646d3_icon-amenities-02-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">TV</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8bfcddb47e175f25d6c_icon-amenities-05-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Laundry<br>Service</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8c20b91a88651b7c3a9_icon-amenities-08-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Mini Bar</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8bfcddb476ae0f25d6b_icon-amenities-03-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Spa</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8c0a693ac6fd8c62d90_icon-amenities-06-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">Business<br>Center</div>
+                    </div>
+                    <div class="amenities-service-wrapper"><img
+                            src="https://assets.website-files.com/5f28567562c2bb7095a14f34/5f2ae8c16d5db4251a583e2f_icon-amenities-10-hotel-template.svg"
+                            alt="" class="icon-amenities">
+                        <div class="amenities-text">GYm</div>
+                    </div>
+                </div>
+                <hr style="width: 70%;">
+                <div class="btns">
+
+                    <a href="#gallery" class="custom-btn btn">Photo Gallery</a>
+                    <a href="#book" class="custom-btn btn ">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- photo gallery -->
+    <div class="photo-gallery container">
+        <h1 id="gallery">Gallery</h1>
+        <hr>
+        <div class="row g-0">
+            <div class="col-5" style="border: 2px solid #7b5c34; height: 50vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+            <div class="col-4" style="border: 2px solid #7b5c34; height: 50vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+            <div class="col-3" style="border: 2px solid #7b5c34; height: 25vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+            <div class="col-3" style="border: 2px solid #7b5c34; position: absolute; right: 1.8vh; width: 24.5%!important;
+            top: 37.1vh; height: 25vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+            <div class="col-4" style="border: 2px solid #7b5c34; height: 50vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+            <div class="col-8" style="border: 2px solid #7b5c34; height: 50vh; background: url(https://source.unsplash.com/random) no-repeat;"></div>
+          </div>
+    </div>
+    <!-- room booking -->
+    <div class="container room-book">
+        <h1 id="book">Book A Room</h1>
+        <div class="row g-0 book">
+            <div class="col-6">
+                <input type="date" class="form-control" placeholder="chehcin" aria-label="First name">
+            </div>
+            <div class="col-6">
+                <input type="date" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-6">
+                <select id="inputState" class="form-select">
+                    <option selected>Adults</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <select id="inputState" class="form-select">
+                    <option selected>Kids</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <input type="submit" class="form-control" placeholder="" aria-label="">
+            </div>
+        </div>
+    </div>
+    <!-- photo seperator -->
+    <div class="seperator">
+        <div class="overlay"></div>
+        <img src="https://source.unsplash.com/1600x900/?hotel,lobby" alt="">
+    </div>
+    <!-- footer -->
+    <div class="container footer">
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col-6">
+            <a href="index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                <img src="imgs/down.png" width="300" alt="">
+            </a>
+            <p class="text-muted" style="margin-left: 6vh; width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos sunt, dolorem officia alias illo obcaecati delectus ex reiciendis qui rerum natus. Id optio mollitia quidem blanditiis aperiam odio amet esse, ratione quam eum.</p>
+            <p class="text-muted" style="margin-left: 6vh; width: 50%;" >copyright &copy 2021</p>
+            </div>
+        
+            <div class="col">
+            <h5>Navigation</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="index.html" class="nav-link custom-hover p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="about.html" class="nav-link custom-hover p-0 text-muted">About Us</a></li>
+                <li class="nav-item mb-2"><a href="rooms.html" class="nav-link custom-hover p-0 text-muted">Rooms</a></li>
+                <li class="nav-item mb-2"><a href="blog.html" class="nav-link custom-hover p-0 text-muted">Blog</a></li>
+            </ul>
+            </div>
+
+            <div class="col">
+            <h5>Address</h5>
+            <p class="text-muted" >53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+            <p class="text-muted" >Phone: 123456789</p>
+            <p class="text-muted" >Email: <a href="">hotel@hotel.com</a></p>
+            </div>
+
+            <div class="map">
+            <iframe style="position: absolute; right: 20vh; bottom: -1vh;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+            width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

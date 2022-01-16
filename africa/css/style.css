@@ -1,0 +1,705 @@
+/* css for whole */
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* browser css */
+::-webkit-scrollbar{
+    width: 1.5vh;
+    background-color: burlywood;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #7b5c34;
+    border-radius: 10px;
+}
+
+/* home page */
+/* navbar css */
+.burlywood{
+    background-color: burlywood;
+}
+
+.nav-link{
+    color: black!important;
+    margin: 0 1rem;
+}
+.nav-link:hover{
+    color: cornsilk!important;
+
+}
+
+.btn{
+    color: white!important;
+    border: 1px solid black!important;
+}
+.btn:hover{
+    color: black!important;
+    cursor: pointer;
+}
+
+/* contact us css */
+.down{
+    position: absolute;
+    width: 25%;
+    top: 0;
+    left: 37.5%;
+    transition: .5s;
+}
+
+.up{
+    position: absolute;
+    width: 25%;
+    bottom: 0;
+    left: 37.5%;
+}
+
+.cornsilk{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cornsilk;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: -100vh;
+}
+
+/* intro css */
+.carousel-inner{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.carousel-caption{
+    z-index: 1;
+    position: absolute;
+    top: 10rem;
+    left: 10%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: black;
+    font-family: 'Allura', cursive;
+    width: 40vw;
+    font-size: xx-large;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #deb887;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .6;
+}
+
+.slide{
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+.card {
+    width: 40vw!important;
+    background-color: transparent!important;
+    border: none!important;
+    margin: 2vh 0;
+}
+
+.row2 {
+    height: auto!important;
+    width: 35vw!important;
+    padding: 5vh;
+    border-radius: 10px;
+    box-shadow: 0 0 .5vh 0 grey;
+}
+
+.spacing{
+    margin: 4vh 0;
+}
+
+#cancel{
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+#cancel:hover{
+    background-color: #7b5c34;
+}
+
+.list-group-item{
+    background-color: transparent!important;
+}
+
+.fs-5{
+    font-size: medium!important;
+}
+
+.featurette{
+    width: auto!important;
+    box-shadow: none!important;
+    height: 80vh!important;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.lead{
+    width: 60%!important;
+}
+
+.custom-btn{
+    background-color: #7b5c34;
+    transition: .5s;
+}
+.custom-btn:hover{
+    background-color: burlywood;
+}
+
+.mx-auto {
+    background: url(https://source.unsplash.com/1600x900/?hotel,entrance);
+    margin-left: -6vh!important;
+    margin-top: -1vh!important;
+    box-shadow: 0 0 1vh .3vh black;
+}
+
+.about-pic {
+    position: absolute;
+    right: -2vh;
+    top: 10vh;
+    background: url(https://source.unsplash.com/1600x900/?hotel,lobby); 
+}
+
+.room-book{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    background-color: #7b5c34;  
+    color: white; 
+    border: 1px solid black ; 
+}
+input[type="submit"]:hover{
+    background-color: burlywood;  
+    color: black;  
+}
+
+.book{
+    box-shadow: 0 0 .5vh .5vh grey;
+    padding: 5vh;
+    border-radius: 10px;
+}
+
+.room-book h1{
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.seperator {
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.recommend-rooms{
+    height: 100vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.recommend-rooms h1{
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 2vh  8vh;
+    box-shadow: 0 0 1vh .5vh grey;
+    height: 80vh;
+}
+
+.card-title{
+    text-decoration: underline;
+}
+
+.right{
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+    background-color: #7b5c34;
+    transition: .5s;
+}
+.right:hover{
+    background-color: burlywood;
+}
+
+.activities{
+    position: relative;
+    /* margin-top: 5vh; */
+    height: 90vh;
+}
+
+.activity{
+    margin: 0;
+    position: absolute;
+    border: 5px solid #7b5c34;
+    overflow: hidden;
+}
+.activity:hover{
+    cursor: pointer;
+}
+.activity:hover .overlay2{
+    background-color: white;
+}
+
+.overlay2{
+    position: absolute;
+    background-color: #deb887;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .6;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    transition: 1s;
+}
+
+.large{
+    width: 49.6vw;
+    height: 60vh;
+    transition: 1s;
+}
+
+.small{
+    width: 49.6vw;
+    height: 30vh;
+    transition: 1s;
+}
+
+.cancel{
+    display: none;
+    width: 10vh;
+    height: 10vh;
+    position: absolute;
+    top: 22vh;
+    right: 3vh;
+    z-index: 3;
+    border-radius: 50%
+}
+
+.cancel:hover{
+    cursor: pointer;
+    background-color: #7b5c34;
+}
+
+.full-size{
+    border: 5px solid #7b5c34;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+.full-size img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient{
+    background-image: linear-gradient(to right, #deb887, #f8c1b2, transparent, transparent, transparent);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.activity-content{
+    width: 30%;
+    padding: 5vh;
+}
+
+.top{
+    top: 0;
+    left: 0;
+}
+.left{
+    bottom: 0;
+    left: 0;
+    
+}
+.right2{
+    top: 0;
+    right: 0;
+}
+.bottom{
+    bottom: 0;
+    right: 0;
+}
+
+.reviews{
+    position: relative;
+    height: 60vh!important;
+    background-color: #deb887;
+}
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.review{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 .5vh  grey;
+    border-radius: 10px;
+}
+
+.image{
+    margin: 5vh;
+    margin-top: -12vh;
+}
+
+.content{
+    width: 50%;
+}
+
+.custom-hover:hover{
+    color: #7b5c34!important;
+    text-decoration: underline;
+}
+
+.footer{
+    position: relative;
+    height: auto;
+}
+
+/* css for rooms page */
+.rooms-slide{
+    overflow: hidden;
+    height: 70vh!important;
+    margin-bottom: 20rem;
+}
+
+.rooms-slide h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.rooms-slide h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.rooms-intro{
+    width: 80vw;
+}
+
+.centered-room{
+    width: 60%;
+    position: absolute;
+    top: 56%;
+    left: 20%;
+    background-color: white;
+}
+
+.room-tags{
+    display: flex;
+    align-items: center!important;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 80%;
+    margin: 10rem auto;
+    background-color: burlywood;
+}
+
+.room-tags-image{
+    width: 30vw;
+    height: 30vw;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.room-tags-slider{
+    width: 40%;
+}
+
+.room-tags-image-size{
+    width: 70vw;
+}
+
+.text{
+    width: 30%;
+}
+
+/* css for individual rooms */
+.indi-room-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.essentials{
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.amenities{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.amenities-service-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30vh;
+    height: 15vh;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.photo-gallery{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.photo-gallery h1{
+    text-align: center;
+}
+
+.image-gallery{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 4vh;
+}
+
+.image-gallery img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.image-gallery img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
+
+.card-header{
+    display: flex;
+}
+
+/* css for about page */
+.overlay3{
+    position: absolute;
+    background-color: #deb887;
+    width: 75vh;
+    height: 75vh;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: .6;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    transition: 1s;
+}
+.overlay3:hover{
+    opacity: 0;
+}
+
+.tenses{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tenses h2{
+    width: 20vh;
+}
+
+.tenses-btns{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tenses-btns .hr{
+    position: absolute;
+    width: 50%;
+    height: 1vh;
+    background-color: #7b5c34;
+    z-index: -1;
+}
+
+.tenses-btn{
+    margin: 0 3vh;
+    width: 5vh;
+    height: 5vh;
+    background-color: #fff;
+    box-shadow: 0 0 0 1vh #fff,
+                0 0 0 2vh #7b5c34;
+    border-radius: 50%;
+    transition: .3s;
+}
+.tenses-btn:hover{
+    background-color: #deb887;
+}
+
+#present, #future{
+    display: none;
+}
+
+.border{
+    border: 2px solid #7b5c34!important;
+}
+
+.menu-tab-pane{
+    border: 2px solid #7b5c34;
+    width: 60%;
+    margin: 5rem auto;
+}
+
+.restaurant-menu-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5vh;
+    width: 70%;
+    margin: auto;
+}
+
+.menu-option-wrapper{
+    margin: 5vh 0;
+}
+
+#lunch, #dinner{
+    display: none;
+}
+
+/* css for blog page */
+.blogs{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15vh;
+    row-gap: 15vh;
+    width: 90%;
+    height: auto;
+    padding: 5vh;
+    margin: auto;
+}
+
+.blog{
+    width: 100%;
+    overflow: hidden;
+    background-color: #deb887;
+}
+
+.more-blog{
+    margin: 3vh 0;
+    transform: rotate(45deg);
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    transition: .5s;
+}
+.more-blog:hover{
+    background-color: #7b5c34;
+}
+
+.full-blog{
+    transition: 1s;
+    display: none;
+    top: 50rem;
+    position: absolute;
+    padding: 5vh;
+    width: 100%;
+    height: auto;
+    background-color: #deb887;
+}
+.full-blog a{
+    border: none!important;
+    background-color: transparent;
+    color: black!important;
+    margin: 2vh;
+    text-decoration: underline;
+}
+.full-blog a:hover{
+    background-color: #7b5c34;
+    color: white!important;
+}
+
+.inline{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inline-content{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
