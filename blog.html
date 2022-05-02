@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <title>Blogs-Bistro Onyxe</title>
+</head>
+
+<body>
+    <!-- navbar of the website -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark burlywood">
+        <!-- contact page embed in navbar -->
+        <div id="contact-page" class="cornsilk">
+            <svg id="cancel" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50" style=" fill:#000000;">
+                <path
+                    d="M 25 2 C 12.309534 2 2 12.309534 2 25 C 2 37.690466 12.309534 48 25 48 C 37.690466 48 48 37.690466 48 25 C 48 12.309534 37.690466 2 25 2 z M 25 4 C 36.609534 4 46 13.390466 46 25 C 46 36.609534 36.609534 46 25 46 C 13.390466 46 4 36.609534 4 25 C 4 13.390466 13.390466 4 25 4 z M 32.990234 15.986328 A 1.0001 1.0001 0 0 0 32.292969 16.292969 L 25 23.585938 L 17.707031 16.292969 A 1.0001 1.0001 0 0 0 16.990234 15.990234 A 1.0001 1.0001 0 0 0 16.292969 17.707031 L 23.585938 25 L 16.292969 32.292969 A 1.0001 1.0001 0 1 0 17.707031 33.707031 L 25 26.414062 L 32.292969 33.707031 A 1.0001 1.0001 0 1 0 33.707031 32.292969 L 26.414062 25 L 33.707031 17.707031 A 1.0001 1.0001 0 0 0 32.990234 15.986328 z">
+                </path>
+            </svg>
+            <img class="up" src="imgs/up.png" alt="">
+            <!-- hotel info, address and map -->
+            <div class="card2 " style="width: 45%;">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Bistro Onyxe</h4>
+                            <p class="fs-5 col-md-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum est reprehenderit sed tenetur, porro dignissimos maxime eum obcaecati ullam, tempora nostrum deleniti architecto.</p>
+                            <p class="fs-5 col-md-auto">Phone: 123456789</p>
+                            <p class="fs-5 col-md-auto">Email: <a href="">hotel@hotel.com</a></p>
+                        </main>
+                    </li>
+                    <li class="list-group-item">
+                        <main>
+                            <h4>Address:</h4>
+                            <p class="fs-5 col-md-auto">53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+                        </main>
+                    </li>
+                    <li class="list-group-item"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+                            width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+                </ul>
+            </div>
+            <!-- contact form -->
+            <form class=" row row2">
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Name...</label>
+                    <input type="name" class="form-control" id="inputName4" required>
+                </div>
+                <div class="spacing col-md-6">
+                    <label for="inputEmail4" class="form-label">Phone...</label>
+                    <input type="number" class="form-control" id="inputPhone4" required>
+                </div>
+                <div class="spacing col-md-12">
+                    <label for="inputEmail4" class="form-label">Email...</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                </div>
+                <div class="spacing mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message...</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+                <div class="spacing col-auto">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <!-- navbar -->
+        <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-btn" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <img class="down" src="imgs/down.png" alt="">
+                <a href="rooms.html" class="custom-btn btn btn-primary">Book Now</a>
+            </div>
+        </div>
+    </nav>
+    <!-- photo carousel being bolgs page -->
+    <div style="margin-bottom: 8rem;" id="carouselExampleSlidesOnly" class="carousel slide rooms-slide" data-bs-ride="carousel">
+        <div class="carousel-inner" style="height: 70vh;">
+            <div class="overlay"></div>
+            <div class="carousel-caption rooms-intro text-start">
+                <h3>Bistro Onyxe...<br>
+                    <h1 style="font-family: 'Righteous', cursive; margin-top: -3vh">Our Blogs</h1>
+                </h3>
+            </div>
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/1600x900/?hotel,kitchen" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,dinner" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1600x900/?hotel,rooms" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <!-- various blogs -->
+    <h1 style="text-align: center;">Blogs That Will Refresh Your Mind</h1>
+    <div class="blogs">
+        <div class="blog">
+            <img style="width: 80vh;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <h2 style="padding: 2vh;">10 Jobs that allow you to earn while travelling</h2>
+            <p style="padding: 2vh;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque blanditiis eaque ut dolores omnis, sunt et. Dolor maiores, consequuntur nemo repellat, placeat, rem sit et quas animi necessitatibus sint quaerat a nulla?</p>
+            <div style="width: 100%; display: flex; justify-content: center;"><img class="more-blog" src="https://img.icons8.com/ios/50/000000/cancel.png" /></div>
+        </div>
+        <div class="blog">
+            <img style="width: 80vh;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <h2 style="padding: 2vh;">10 Jobs that allow you to earn while travelling</h2>
+            <p style="padding: 2vh;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque blanditiis eaque ut dolores omnis, sunt et. Dolor maiores, consequuntur nemo repellat, placeat, rem sit et quas animi necessitatibus sint quaerat a nulla?</p>
+            <div style="width: 100%; display: flex; justify-content: center;"><img class="more-blog" src="https://img.icons8.com/ios/50/000000/cancel.png" /></div>
+        </div>
+        <div class="blog">
+            <img style="width: 80vh;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <h2 style="padding: 2vh;">10 Jobs that allow you to earn while travelling</h2>
+            <p style="padding: 2vh;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque blanditiis eaque ut dolores omnis, sunt et. Dolor maiores, consequuntur nemo repellat, placeat, rem sit et quas animi necessitatibus sint quaerat a nulla?</p>
+            <div style="width: 100%; display: flex; justify-content: center;"><img class="more-blog" src="https://img.icons8.com/ios/50/000000/cancel.png" /></div>
+        </div>
+        <div class="blog">
+            <img style="width: 80vh;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <h2 style="padding: 2vh;">10 Jobs that allow you to earn while travelling</h2>
+            <p style="padding: 2vh;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque blanditiis eaque ut dolores omnis, sunt et. Dolor maiores, consequuntur nemo repellat, placeat, rem sit et quas animi necessitatibus sint quaerat a nulla?</p>
+            <div style="width: 100%; display: flex; justify-content: center;"><img class="more-blog" src="https://img.icons8.com/ios/50/000000/cancel.png" /></div>
+        </div>
+        <div class="blog">
+            <img style="width: 80vh;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <h2 style="padding: 2vh;">10 Jobs that allow you to earn while travelling</h2>
+            <p style="padding: 2vh;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur doloremque blanditiis eaque ut dolores omnis, sunt et. Dolor maiores, consequuntur nemo repellat, placeat, rem sit et quas animi necessitatibus sint quaerat a nulla?</p>
+            <div style="width: 100%; display: flex; justify-content: center;"><img class="more-blog" src="https://img.icons8.com/ios/50/000000/cancel.png" /></div>
+        </div>
+    </div>
+    <!-- blog full size -->
+    <div class="full-blog">
+        <a class="back-to-blog" class="custom-btn btn btn-primary">Back to Blog</a>
+        <div class="inline">
+            <img style="width: 50%;" src="https://source.unsplash.com/1600x900/?hotel,kitchen" alt="">
+            <div class="inline-content">
+                <h1>10 Jobs that allow you to earn while travelling</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nesciunt iure explicabo corrupti similique ullam necessitatibus omnis fugit minus quod atque non eveniet rem reiciendis vero, veritatis molestias cupiditate magnam, aspernatur
+                    quo soluta quia. <br><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolorem numquam vel voluptatem in assumenda optio vitae iste ipsa natus!</p>
+            </div>
+        </div>
+        <p style="padding: 5vh;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non aliquam, deserunt quo facilis molestiae similique debitis blanditiis. Nemo voluptatibus vel possimus exercitationem, impedit porro necessitatibus, similique ullam veniam dicta voluptatum
+            sapiente molestiae. Culpa deserunt cumque iure. Dolor consectetur cumque, reiciendis, perferendis in, facere temporibus dicta obcaecati dolore exercitationem praesentium deserunt autem similique animi ratione eligendi vel totam! Similique
+            praesentium qui perferendis ex laboriosam perspiciatis.<br><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam saepe atque harum vero non quod, quis praesentium exercitationem. Sit exercitationem atque necessitatibus saepe
+            nam? Ullam minima incidunt libero? Hic, necessitatibus ad officiis temporibus vel eligendi praesentium porro rem suscipit vitae perspiciatis recusandae nostrum cum cumque, corporis tempore minus. Nesciunt, fuga?</p>
+    </div>
+    <!-- photo seperator -->
+    <div class="seperator">
+        <div class="overlay"></div>
+        <img src="https://source.unsplash.com/1600x900/?hotel,lobby" alt="">
+    </div>
+    <!-- footer -->
+    <div class="container footer">
+        <footer class="row row-cols-5 py-5 my-5 border-top">
+            <div class="col-6">
+                <a href="index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="imgs/down.png" width="300" alt="">
+                </a>
+                <p class="text-muted" style="margin-left: 6vh; width: 50%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eos sunt, dolorem officia alias illo obcaecati delectus ex reiciendis qui rerum natus. Id optio mollitia quidem blanditiis aperiam odio amet esse, ratione quam eum.</p>
+                <p class="text-muted" style="margin-left: 6vh; width: 50%;">copyright &copy 2021</p>
+            </div>
+
+            <div class="col">
+                <h5>Navigation</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="index.html" class="nav-link custom-hover p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="about.html" class="nav-link custom-hover p-0 text-muted">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="rooms.html" class="nav-link custom-hover p-0 text-muted">Rooms</a></li>
+                    <li class="nav-item mb-2"><a href="blog.html" class="nav-link custom-hover p-0 text-muted">Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Address</h5>
+                <p class="text-muted">53 West 21st Street,<br>Suite 72,<br>Nairobi</p>
+                <p class="text-muted">Phone: 123456789</p>
+                <p class="text-muted">Email: <a href="">hotel@hotel.com</a></p>
+            </div>
+
+            <div class="map">
+                <iframe style="position: absolute; right: 20vh; bottom: -1vh;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35853744816!2d36.707308253734915!3d-1.3028617907189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sin!4v1631090495144!5m2!1sen!2sin"
+                    width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+    <!-- Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="js/script3.js"></script>
+
+</body>
+
+</html>
